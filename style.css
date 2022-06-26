@@ -19,6 +19,7 @@ section {
   background-color: hsl(244, 38%, 16%);
   margin: 2rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   border-radius: 0.5rem;
 }
@@ -36,7 +37,7 @@ section .content {
 
 .content h1 {
   color: white;
-  font: 700 1.75rem Inter;
+  font: 700 30px Inter;
   padding-bottom: 1.75rem;
 }
 
@@ -70,4 +71,16 @@ h1 span {
   text-transform: uppercase;
   line-height: 1.75rem;
   letter-spacing: 0.05rem;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1023px) {
+  .content h1,
+  .statistics h2 {
+    font-size: 230%;
+  }
+
+  .content p,
+  .statistics p {
+    font-size: 120%;
+  }
 }
