@@ -12,7 +12,7 @@
 
 ## Web Version / Mobile Version
 <p align="center">
-  <img alt="Stats Preview Card Component Main" src="assets/desktop.png" width="75%">
+  <img alt="Stats Preview Card Component Main" src="assets/desktop.png" width="75%" height="450px">
   <img alt="Stats Preview Card Component Main" src="assets/mobile.png" width="15%" height="450px">
 </p>
 
